@@ -1,0 +1,25 @@
+##############################################################
+#### 		application layer Makefile
+##############################################################
+
+include $(GW_BASE)/make/common.make
+
+
+OBJECTS =	xmltok.o xmlparse.o xmlrole.o
+
+PROGFLAGS +=   	-I../../include/Expat
+	
+DISTFILES =
+PROGS =
+PROGLIBS = 
+
+PROGDEFS += -XO -tPPC604FH:vxworks55 -W:c:,-Xmismatch-warning=2 -ew1554,1551,1552,1086,1047,1547 -Xclib-optim-off -Xansi -Xstrings-in-text=0 -Wa,-Xsemi-is-newline -ei1516,1643,1604 -Xlocal-data-area-static-only -Xsize-opt -I. -I$(WIND_BASE)/target/h/ -DCPU=PPC604 -DTOOL_FAMILY=diab -DTOOL=diab -D__VX_WORKS__ -DXML_STATIC -Xcode-absolute-far -Xdata-absolute-far
+
+TARGET   = sdSS7Expat
+root_dir = $(GW_BASE)/wan
+
+include $(GW_BASE)/make/rules.make 
+
+rmont:$(APPTARGET)
+rmong:$(LIBTARGET)
+lbrm: rm

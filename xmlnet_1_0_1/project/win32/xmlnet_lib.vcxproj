@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C21E685C-B36E-45E5-904B-0C0D595A0206}</ProjectGuid>
+    <RootNamespace>XmlNetLib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\fwk\fridmon\quark_1_0_1;..\..\..\fwk\fridmon\hyperon_1_0_1;..\..\..\fwk\fridmon\nucleon_1_0_1;..\..\..\fwk\fridmon\meson_1_0_1;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\messages.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\socket.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\stdafx.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_agent.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_schemes.cpp" />
+    <ClCompile Include="..\..\xmlnet\xmlnet_lib\generated\g_client.cpp" />
+    <ClCompile Include="..\..\xmlnet\xmlnet_lib\generated\g_server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\messages.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\socket.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\stdafx.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_agent.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_schemes.h" />
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_client.h" />
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_interface.h" />
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_messages.h" />
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_server.h" />
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_xml_schemes.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

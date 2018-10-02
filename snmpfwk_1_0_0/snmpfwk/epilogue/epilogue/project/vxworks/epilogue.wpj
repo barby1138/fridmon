@@ -1,0 +1,2158 @@
+Document file - DO NOT EDIT
+
+<BEGIN> BUILD_PPC860diab_MACRO_AR
+dar
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_ARCHIVE
+$(PRJ_DIR)/PPC860diab/epilogue.a
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_AS
+dcc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CC
+dcc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CC_ARCH_SPEC
+-tPPC860FS:vxworks55
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CFLAGS
+-g \
+	-tPPC860FS:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=PPC860 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab \
+	-I$(PRJ_DIR)/../../include/epilogue/ \
+	-I$(PRJ_DIR)/../../include/epilogue/port/vxworks/ \
+	-I$(PRJ_DIR)/../../include/epilogue/envoy/h/ \
+	-I.
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CFLAGS_AS
+-g \
+	-tPPC860FS:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-Xpreprocess-assembly \
+	-c \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=PPC860 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CPP
+dcc -E -Xpreprocessor-lineno-off
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_HEX_FLAGS
+
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LD
+dld
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LDFLAGS
+-tPPC860FS:vxworks55 -X -N -Xgenerate-paddr
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LD_PARTIAL
+dld -tPPC860FS:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LD_PARTIAL_FLAGS
+-tPPC860FS:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_NM
+nmppc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_DEFINE_MACRO
+-D
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_DEPEND
+-Xmake-dependency -w
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_GENERATE_DEPENDENCY_FILE
+-MD
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_INCLUDE_DIR
+-I
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_LANG_C
+-xc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_UNDEFINE_MACRO
+-U
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_SIZE
+sizeppc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_TOOL_FAMILY
+diab
+<END>
+
+<BEGIN> BUILD_PPC860diab_RO_DEPEND_PATH
+{$(WIND_BASE)/target/h/} \
+	{$(WIND_BASE)/target/src/} \
+	{$(WIND_BASE)/target/config/}
+<END>
+
+<BEGIN> BUILD_PPC860diab_TC
+::tc_PPC860diab
+<END>
+
+<BEGIN> BUILD__CURRENT
+PPC860diab
+<END>
+
+<BEGIN> BUILD__LIST
+PPC860diab
+<END>
+
+<BEGIN> CORE_INFO_TYPE
+::prj_vxApp
+<END>
+
+<BEGIN> CORE_INFO_VERSION
+2.2
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/backstop/common.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/backstop/oemtypes.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/access.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/agent.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxfuncs.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ax_mth.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/bstring.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/context.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/encode.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/etimer.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/md5.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/proxy_tr.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpvars.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/subagent.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/tree.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/user.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/version.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/wkobj.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/attache.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/decorum.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/emissary.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/ipsecprt.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/liaison.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/snark.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/snmptalk.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/telnet.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/access.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/access.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/access.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/access.c_objects
+access.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/access.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/agent.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/agent.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/agent.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/agent.c_objects
+agent.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/agent.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_back.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_back.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_back.c_objects
+asy_back.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_back.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_util.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_util.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_util.c_objects
+asy_util.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_util.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindint.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindint.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindint.c_objects
+bindint.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindint.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindip.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindip.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindip.c_objects
+bindip.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindip.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindnull.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindnull.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindnull.c_objects
+bindnull.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindnull.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindoid.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindoid.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindoid.c_objects
+bindoid.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindoid.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindstr.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindstr.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindstr.c_objects
+bindstr.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindstr.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindui64.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindui64.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindui64.c_objects
+bindui64.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindui64.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/binduint.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/binduint.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/binduint.c_objects
+binduint.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/binduint.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buffer.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buffer.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buffer.c_objects
+buffer.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buffer.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buildpkt.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buildpkt.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buildpkt.c_objects
+buildpkt.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buildpkt.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/context.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/context.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/context.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/context.c_objects
+context.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/context.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/copyrite.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/copyrite.c_dependencies
+
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/copyrite.c_objects
+copyrite.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/copyrite.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatint.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatint.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatint.c_objects
+creatint.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatint.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatrap.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatrap.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatrap.c_objects
+creatrap.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatrap.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatreq.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatreq.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatreq.c_objects
+creatreq.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatreq.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/decode.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/decode.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/decode.c_objects
+decode.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/decode.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/encode.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/encode.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/encode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/encode.c_objects
+encode.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/encode.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/env_init.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/env_init.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/env_init.c_objects
+env_init.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/env_init.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/etimer.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/etimer.c_dependencies
+$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/etimer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/etimer.c_objects
+etimer.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/etimer.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/getpdu.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/getpdu.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/getpdu.c_objects
+getpdu.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/getpdu.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/localio.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/localio.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/localio.c_objects
+localio.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/localio.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/md5.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/md5.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/md5.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/md5.c_objects
+md5.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/md5.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_fon.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_fon.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_fon.c_objects
+mib_fon.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_fon.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_next.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_next.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_next.c_objects
+mib_next.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_next.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mibutils.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mibutils.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mibutils.c_objects
+mibutils.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mibutils.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/nextpdu.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/nextpdu.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/nextpdu.c_objects
+nextpdu.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/nextpdu.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/objectid.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/objectid.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/objectid.c_objects
+objectid.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/objectid.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/proxy.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/proxy.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/etimer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/wkobj.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/proxy.c_objects
+proxy.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/proxy.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rcv_pkt.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rcv_pkt.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rcv_pkt.c_objects
+rcv_pkt.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rcv_pkt.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rpktasy.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rpktasy.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rpktasy.c_objects
+rpktasy.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rpktasy.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_core.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_core.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/encode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/subagent.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/tree.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_core.c_objects
+sa_core.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_core.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mast.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mast.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/encode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/subagent.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/tree.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/etimer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mast.c_objects
+sa_mast.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mast.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mutil.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mutil.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/subagent.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/tree.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mutil.c_objects
+sa_mutil.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mutil.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_sagt.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_sagt.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/encode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/subagent.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/tree.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/etimer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_sagt.c_objects
+sa_sagt.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_sagt.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/serial.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/serial.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/serial.c_objects
+serial.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/serial.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/setpdu.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/setpdu.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/setpdu.c_objects
+setpdu.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/setpdu.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_d.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_d.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/copyrite.c
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_d.c_objects
+snmp_d.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_d.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_e.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_e.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/encode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_e.c_objects
+snmp_e.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_e.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmpvars.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmpvars.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpvars.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmpvars.c_objects
+snmpvars.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmpvars.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/tree.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/tree.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/tree.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/tree.c_objects
+tree.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/tree.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/user.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/user.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/md5.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/user.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/user.c_objects
+user.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/user.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/vb_rtns.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/vb_rtns.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/vb_rtns.c_objects
+vb_rtns.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/vb_rtns.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_chk.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_chk.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_chk.c_objects
+view_chk.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_chk.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_rts.c_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_rts.c_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxfuncs.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_rts.c_objects
+view_rts.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_rts.c_tool
+C/C++ compiler
+<END>
+
+<BEGIN> PROJECT_FILES
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/access.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/agent.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_back.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/asy_util.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindint.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindip.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindnull.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindoid.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindstr.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/bindui64.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/binduint.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buffer.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/buildpkt.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/context.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/copyrite.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatint.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatrap.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/creatreq.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/decode.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/encode.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/env_init.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/etimer.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/getpdu.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/localio.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/md5.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_fon.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mib_next.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/mibutils.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/nextpdu.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/objectid.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/proxy.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rcv_pkt.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/rpktasy.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_core.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mast.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_mutil.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/sa_sagt.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/serial.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/setpdu.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_d.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmp_e.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/snmpvars.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/tree.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/user.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/vb_rtns.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_chk.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/src/epilogue/envoy/snmp/view_rts.c \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/backstop/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/backstop/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bug.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/bugdef.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/access.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/agent.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxfuncs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ax_mth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/bstring.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/context.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/decode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/encode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/etimer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/localio.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/md5.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/objectid.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/proxy_tr.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpstat.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpvars.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/subagent.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/tree.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/user.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/version.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/view.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/wkobj.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/attache.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/decorum.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/emissary.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/ipsecprt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/liaison.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/snark.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/snmptalk.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/telnet.h
+<END>
+
+<BEGIN> userComments
+<Enter description here>
+<END>
+

@@ -1,0 +1,12 @@
+﻿Build started 10.10.2017 20:39:54.
+     1>Project "C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\Expat.vcxproj" on node 4 (Build target(s)).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\..\..\lib\Win32\Debug\Expat.lib" /NOLOGO .\..\..\compile\Win32\Debug\Expat/xmlparse.obj
+         .\..\..\compile\Win32\Debug\Expat/xmlrole.obj
+         .\..\..\compile\Win32\Debug\Expat/xmltok.obj
+         Expat.vcxproj -> C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\.\..\..\lib\Win32\Debug\Expat.lib
+     1>Done Building Project "C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\Expat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.51

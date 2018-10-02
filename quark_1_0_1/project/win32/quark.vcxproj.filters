@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mempool">
+      <UniqueIdentifier>{6b37a689-29b6-4986-a736-185bb15a73c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mempool\service">
+      <UniqueIdentifier>{076305ae-d6ee-44d1-9a35-c26049fbb5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{f6cc82d9-ee84-48fb-b9dc-30ab4cef0e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\compiler">
+      <UniqueIdentifier>{80e7e2cf-dc4d-4db1-b217-a2a286184824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\platform">
+      <UniqueIdentifier>{771c9d94-3405-4665-a188-5f93a8dec52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\stl">
+      <UniqueIdentifier>{4bf8b5f6-991e-45e0-b9e4-0494f8b8a1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\stl\dinkum">
+      <UniqueIdentifier>{6241d47f-fdb9-444f-9965-bb21cab4709f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{f9e6db7e-a839-4c37-acde-1491d1f3c342}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\quark\mempool\mempool.h">
+      <Filter>mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\mempool\middle_alloc.h">
+      <Filter>mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\mempool\small_alloc.h">
+      <Filter>mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\mempool\storage.h">
+      <Filter>mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\mempool\user_mempool.h">
+      <Filter>mempool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\mempool\service\service_mempool.h">
+      <Filter>mempool\service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\compiler_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\platform_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\stl_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\user.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\compiler\diab.h">
+      <Filter>config\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\compiler\gcc.h">
+      <Filter>config\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\compiler\vc.h">
+      <Filter>config\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\platform\redhat.h">
+      <Filter>config\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\platform\vxworks.h">
+      <Filter>config\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\platform\win32.h">
+      <Filter>config\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\stl\dinkum.h">
+      <Filter>config\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\stl\sgi.h">
+      <Filter>config\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\config\stl\dinkum\msvc6\allocator.h">
+      <Filter>config\stl\dinkum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\win32\sync_impl.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\win32\thread_impl.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\win32\time_impl.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\quark\common_templates.h" />
+    <ClInclude Include="..\..\quark\config.h" />
+    <ClInclude Include="..\..\quark\mempool.h" />
+    <ClInclude Include="..\..\quark\msg_queue.h" />
+    <ClInclude Include="..\..\quark\singleton.h" />
+    <ClInclude Include="..\..\quark\strings.h" />
+    <ClInclude Include="..\..\quark\sync.h" />
+    <ClInclude Include="..\..\quark\thread.h" />
+    <ClInclude Include="..\..\quark\threads.h" />
+    <ClInclude Include="..\..\quark\time.h" />
+    <ClInclude Include="..\..\quark\timer.h" />
+    <ClInclude Include="..\..\quark\types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\quark\mempool\user_mempool.cpp">
+      <Filter>mempool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\quark\mempool\service\service_mempool.cpp">
+      <Filter>mempool\service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\quark\singleton.cpp" />
+    <ClCompile Include="..\..\quark\strings.cpp" />
+    <ClCompile Include="..\..\quark\sync.cpp" />
+    <ClCompile Include="..\..\quark\thread.cpp" />
+    <ClCompile Include="..\..\quark\time.cpp" />
+    <ClCompile Include="..\..\quark\timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\quark\config\stl\dinkum\_deque_">
+      <Filter>config\stl\dinkum</Filter>
+    </None>
+    <None Include="..\..\quark\config\stl\dinkum\_list_">
+      <Filter>config\stl\dinkum</Filter>
+    </None>
+    <None Include="..\..\quark\config\stl\dinkum\_xtree_">
+      <Filter>config\stl\dinkum</Filter>
+    </None>
+  </ItemGroup>
+</Project>

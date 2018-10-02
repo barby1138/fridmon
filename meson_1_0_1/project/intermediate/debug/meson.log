@@ -1,0 +1,20 @@
+﻿Build started 19.01.2017 22:17:05.
+     1>Project "K:\projects\libs\fridmon[19-08-2011]\meson_1_0_1\project\win32\meson.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../ /I../../../quark_1_0_1 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\../../intermediate/debug/" /Fd".\../../intermediate/debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\meson\profiler\meter.cpp ..\..\meson\test.cpp ..\..\meson\tracer\path.cpp ..\..\meson\tracer\user_tracer.cpp
+         Skipping... (no relevant changes detected)
+         user_tracer.cpp
+         path.cpp
+         test.cpp
+         meter.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"../../lib/win32/debug/meson.lib" /NOLOGO .\../../intermediate/debug/meter.obj
+         .\../../intermediate/debug/test.obj
+         .\../../intermediate/debug/path.obj
+         .\../../intermediate/debug/user_tracer.obj
+         meson.vcxproj -> K:\projects\libs\fridmon[19-08-2011]\meson_1_0_1\project\win32\.\../../lib/win32/debug\meson.lib
+     1>Done Building Project "K:\projects\libs\fridmon[19-08-2011]\meson_1_0_1\project\win32\meson.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63

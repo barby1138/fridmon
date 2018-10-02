@@ -1,0 +1,387 @@
+Document file - DO NOT EDIT
+
+<BEGIN> BUILD_PPC604diab_BUILDRULE
+archive
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_AR
+dar
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_ARCHIVE
+../../../lib/vxworks/diab/release/meson.a
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_AS
+dcc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CC
+dcc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CC_ARCH_SPEC
+-tPPC604FH:vxworks55
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CFLAGS
+-XO \
+	-tPPC604FH:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-DCPU=PPC604 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab \
+	-D__VX_WORKS__ \
+	-Xcode-absolute-far \
+	-Xdata-absolute-far \
+	-I$(WIND_BASE)/target/h/ \
+	-IC:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../ \
+	-IC:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../../quark_1_0_1 \
+	-I.
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CFLAGS_AS
+-g \
+	-tPPC604FH:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-Xpreprocess-assembly \
+	-c \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=PPC604 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab \
+	-Xstrip-locals
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CPP
+dcc -E -Xpreprocessor-lineno-off
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_HEX_FLAGS
+
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LD
+dld
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LDFLAGS
+-tPPC604FH:vxworks55 -X -N -Xgenerate-paddr
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LD_PARTIAL
+dld -tPPC604FH:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LD_PARTIAL_FLAGS
+-tPPC604FH:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_NM
+nmppc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_DEFINE_MACRO
+-D
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_DEPEND
+-Xmake-dependency -w
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_GENERATE_DEPENDENCY_FILE
+-MD
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_INCLUDE_DIR
+-I
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_LANG_C
+-xc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_UNDEFINE_MACRO
+-U
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_POST_BUILD_RULE
+
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_PRJ_LIBS
+
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_SIZE
+sizeppc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_TOOL_FAMILY
+diab
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_VPATH
+C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../ \
+	C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../../quark_1_0_1
+<END>
+
+<BEGIN> BUILD_PPC604diab_RO_DEPEND_PATH
+{$(WIND_BASE)/target/h/} \
+	{$(WIND_BASE)/target/src/} \
+	{$(WIND_BASE)/target/config/}
+<END>
+
+<BEGIN> BUILD_PPC604diab_TC
+::tc_PPC604diab
+<END>
+
+<BEGIN> BUILD_RULE_archive
+
+<END>
+
+<BEGIN> BUILD_RULE_meson.out
+
+<END>
+
+<BEGIN> BUILD_RULE_meson.pl
+
+<END>
+
+<BEGIN> BUILD_RULE_objects
+
+<END>
+
+<BEGIN> BUILD__CURRENT
+PPC604diab
+<END>
+
+<BEGIN> BUILD__LIST
+PPC604diab
+<END>
+
+<BEGIN> CORE_INFO_TYPE
+::prj_vxApp
+<END>
+
+<BEGIN> CORE_INFO_VERSION
+2.2
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/test.cpp_dependencies
+C:/Projects/fridmon/meson_1_0_1/meson/test.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/meson_1_0_1/meson/profiler.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/singleton.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/threads.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/sync.h \
+	C:/Projects/fridmon/meson_1_0_1/meson/profiler/profiler.h \
+	C:/Projects/fridmon/meson_1_0_1/meson/profiler/meter.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/time.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/strings.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/mempool.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/mempool/mempool.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/mempool/small_alloc.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/mempool/service/service_mempool.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/mempool/middle_alloc.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/mempool/storage.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/test.cpp_objects
+test.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/tracer/user_tracer.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/tracer/user_tracer.cpp_dependencies
+C:/Projects/fridmon/meson_1_0_1/meson/tracer/user_tracer.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/sync.h \
+	C:/Projects/fridmon/meson_1_0_1/meson/tracer.h \
+	C:/Projects/fridmon/meson_1_0_1/meson/tracer/tracer.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/strings.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/thread.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/time.h \
+	C:/Projects/fridmon/meson_1_0_1/meson/tracer/path.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/singleton.h \
+	C:/Projects/fridmon/meson_1_0_1/../quark_1_0_1/quark/threads.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/tracer/user_tracer.cpp_objects
+user_tracer.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/tracer/user_tracer.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> PROJECT_FILES
+C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/test.cpp \
+	C:/Projects/fridmon/quark_1_0_1/../meson_1_0_1/project/../meson/tracer/user_tracer.cpp
+<END>
+
+<BEGIN> userComments
+<Enter description here>
+<END>
+

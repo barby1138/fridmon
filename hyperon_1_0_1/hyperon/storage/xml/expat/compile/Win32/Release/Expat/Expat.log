@@ -1,0 +1,18 @@
+﻿Build started 01.10.2018 12:32:21.
+     1>Project "C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\Expat.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include\Expat /Zi /nologo /W3 /WX- /O1 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _LIB /D COMPILED_FROM_DSP /D XML_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\Compile\Win32\Release\Expat/" /Fd".\..\..\Compile\Win32\Release\Expat/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\expat\xmlparse.c ..\..\expat\xmlrole.c ..\..\expat\xmltok.c
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\..\..\lib\Win32\Release\Expat.lib" /NOLOGO .\..\..\Compile\Win32\Release\Expat/xmlparse.obj
+         .\..\..\Compile\Win32\Release\Expat/xmlrole.obj
+         .\..\..\Compile\Win32\Release\Expat/xmltok.obj
+         Expat.vcxproj -> C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\.\..\..\lib\Win32\Release\Expat.lib
+     1>Done Building Project "C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\Expat.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.85

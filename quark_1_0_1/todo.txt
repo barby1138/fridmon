@@ -1,0 +1,2 @@
+1. Reconsider threading implementation;
+2. Reconsider memory pool templates.

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<properties xmlns="http://www.inobject.com/XMLNS/SS7/SNMPProxy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inobject.com/XMLNS/SS7/SNMPProxy E:/Temp/SNMPProxy.xsd">
+
+  <logger level="debug" path="C:\Temp\Logs\SnmpProxy"/>
+
+  <snmp port="161"/>
+
+  <septel path="C:\Program Files\RadVision\SnmpProxy\Septel"/>
+
+  <timeouts ftp="5" rsi="5" telnet="5"/>
+
+  <features telnet="false"/>
+
+  <siuTable>
+    <siuEntry ftpLogin="FJBBUcsr" ftpPwd="FJBBUcsr" id="192.168.0.213" port="9000" tlnPwd=""/>
+  </siuTable>
+
+  <traps>
+    <trapConfigTable>
+      <trapConfigEntry id="chassisFanFailure" sendLog="true" severity="critical" status="enabled"/>
+      <trapConfigEntry id="chassisPowerSupplyFail" sendLog="true" severity="critical" status="enabled"/>
+      <trapConfigEntry id="siuBoardFail" sendLog="true" severity="critical" status="enabled"/>
+      <trapConfigEntry id="siuHostLinkFail" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuInterSiuLinkFail" sendLog="true" severity="critical" status="enabled"/>
+      <trapConfigEntry id="siuCongestion" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuCpuOverTemp" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuFanWarn" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuPcmFrameSyncLoss" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuPcmAis" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuPcmRemoteAlarm" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuPcmLoss" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuPcmFrameSlip" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuL2OutOfService" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuL2InitialAlignment" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuL2AlignedNotReady" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuL2AlignedReady" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuL2ProcessorOutage" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuMtpChangeOver" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuMtpRestoration" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuMtpRemoteProcOutage" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuMtpCongestion" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuMtpMsuDiscarded" sendLog="true" severity="indeterminate" status="enabled"/>
+      <trapConfigEntry id="siuMtpLinksetFail" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuMtpDestLost" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuMtpAdjSpLost" sendLog="true" severity="major" status="enabled"/>
+      <trapConfigEntry id="siuCircuitGroupConflict" sendLog="true" severity="critical" status="enabled"/>
+      <trapConfigEntry id="siuProxyLinkFail" sendLog="true" severity="major" status="enabled"/>
+    </trapConfigTable>
+    <trapServerTable>
+      <trapServerEntry address="127.0.0.1" id="0" port="162"/>
+    </trapServerTable>
+    <trapMapTable>
+      <trapMapEntry serverId="0" status="enabled" trapId="chassisFanFailure"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="chassisPowerSupplyFail"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuBoardFail"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuHostLinkFail"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuInterSiuLinkFail"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuCongestion"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuCpuOverTemp"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuFanWarn"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuPcmFrameSyncLoss"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuPcmAis"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuPcmRemoteAlarm"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuPcmLoss"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuPcmFrameSlip"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuL2OutOfService"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuL2InitialAlignment"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuL2AlignedNotReady"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuL2AlignedReady"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuL2ProcessorOutage"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpChangeOver"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpRestoration"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpRemoteProcOutage"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpCongestion"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpMsuDiscarded"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpLinksetFail"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpDestLost"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuMtpAdjSpLost"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuCircuitGroupConflict"/>
+      <trapMapEntry serverId="0" status="enabled" trapId="siuProxyLinkFail"/>
+    </trapMapTable>
+  </traps>
+
+</properties>

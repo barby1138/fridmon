@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tracer">
+      <UniqueIdentifier>{c4644027-28d0-40ae-82a4-173cd04cc160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tracer\win32">
+      <UniqueIdentifier>{e6aeb14d-c8a3-4ef1-9ac2-a9908850b1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="profiler">
+      <UniqueIdentifier>{060f23fa-fb20-4531-a4d0-63463f619eb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\meson\tracer\path.cpp">
+      <Filter>tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\meson\tracer\user_tracer.cpp">
+      <Filter>tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\meson\profiler\meter.cpp">
+      <Filter>profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\meson\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\meson\tracer\path.h">
+      <Filter>tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\meson\tracer\tracer.h">
+      <Filter>tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\meson\tracer\user_tracer.h">
+      <Filter>tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\meson\tracer\win32\path_impl.h">
+      <Filter>tracer\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\meson\profiler\meter.h">
+      <Filter>profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\meson\profiler\profiler.h">
+      <Filter>profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\meson\profiler.h" />
+    <ClInclude Include="..\..\meson\test.h" />
+    <ClInclude Include="..\..\meson\tracer.h" />
+  </ItemGroup>
+</Project>

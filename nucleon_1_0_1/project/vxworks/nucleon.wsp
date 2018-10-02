@@ -1,0 +1,16 @@
+Document file - DO NOT EDIT
+
+<BEGIN> CORE_INFO_TYPE
+Workspace
+<END>
+
+<BEGIN> CORE_INFO_VERSION
+2.2
+<END>
+
+<BEGIN> projectList
+$(PRJ_DIR)/test.wpj \
+	$(PRJ_DIR)/../../../meson_1_0_1/project/vxworks/meson.wpj \
+	$(PRJ_DIR)/../../../quark_1_0_1/project/vxworks/quark.wpj
+<END>
+

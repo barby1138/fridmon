@@ -1,0 +1,854 @@
+Document file - DO NOT EDIT
+
+<BEGIN> BUILD_PPC860diab_MACRO_AR
+dar
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_ARCHIVE
+$(PRJ_DIR)/PPC860diab/snmpfwk.a
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_AS
+dcc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CC
+dcc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CC_ARCH_SPEC
+-tPPC860FS:vxworks55
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CFLAGS
+-g \
+	-tPPC860FS:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=PPC860 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab \
+	-D__VX_WORKS__ \
+	-D_EPILOGUE \
+	-IC:/Projects/fridmon/quark_1_0_1/ \
+	-IC:/Projects/fridmon/nucleon_1_0_1/ \
+	-I$(PRJ_DIR)/../../snmpfwk/ \
+	-I$(PRJ_DIR)/../../snmpfwk/epilogue/epilogue/include/epilogue \
+	-I$(PRJ_DIR)/../../snmpfwk/epilogue/epilogue/include/epilogue/envoy/h \
+	-I$(PRJ_DIR)/../../snmpfwk/epilogue/epilogue/include/epilogue/common/h \
+	-I$(PRJ_DIR)/../../snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks \
+	-I.
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CFLAGS_AS
+-g \
+	-tPPC860FS:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-Xpreprocess-assembly \
+	-c \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=PPC860 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_CPP
+dcc -E -Xpreprocessor-lineno-off
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_HEX_FLAGS
+
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LD
+dld
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LDFLAGS
+-tPPC860FS:vxworks55 -X -N -Xgenerate-paddr
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LD_PARTIAL
+dld -tPPC860FS:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_LD_PARTIAL_FLAGS
+-tPPC860FS:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_NM
+nmppc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_DEFINE_MACRO
+-D
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_DEPEND
+-Xmake-dependency -w
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_GENERATE_DEPENDENCY_FILE
+-MD
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_INCLUDE_DIR
+-I
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_LANG_C
+-xc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_OPTION_UNDEFINE_MACRO
+-U
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_SIZE
+sizeppc
+<END>
+
+<BEGIN> BUILD_PPC860diab_MACRO_TOOL_FAMILY
+diab
+<END>
+
+<BEGIN> BUILD_PPC860diab_RO_DEPEND_PATH
+{$(WIND_BASE)/target/h/} \
+	{$(WIND_BASE)/target/src/} \
+	{$(WIND_BASE)/target/config/}
+<END>
+
+<BEGIN> BUILD_PPC860diab_TC
+::tc_PPC860diab
+<END>
+
+<BEGIN> BUILD__CURRENT
+PPC860diab
+<END>
+
+<BEGIN> BUILD__LIST
+PPC860diab
+<END>
+
+<BEGIN> CORE_INFO_TYPE
+::prj_vxApp
+<END>
+
+<BEGIN> CORE_INFO_VERSION
+2.2
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpAny.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpInterfaces.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpLeaf.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.cpp_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpLeaf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpInterfaces.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/sync.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.cpp_objects
+SnmpMultiRoot.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.cpp_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpLeaf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpInterfaces.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/sync.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.cpp_objects
+SnmpNode.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.cpp_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/SnmpSenderImpl.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/EpiloguePacket.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buildpkt.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/asn1conf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/install.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/config.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/types.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/oemtypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/common.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/port/vxworks/envoy.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmp.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/snmpdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/buffer.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/mib.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/ui64.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/vbdefs.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/envoy/h/auxmth.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/epilogue/include/epilogue/common/h/glue.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/epilogue/PracticalSocket.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.cpp_objects
+SnmpSender.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.cpp_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpLeaf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpInterfaces.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/sync.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.cpp_objects
+SnmpTable.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.cpp_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/strings.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/time.h \
+	C:/Projects/fridmon/nucleon_1_0_1/nucleon/bstream.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.cpp_objects
+SnmpTextCon.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.cpp_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/common_templates.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/strings.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.cpp_objects
+SnmpTypes.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.cpp_dependencies
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/user.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/compiler/diab.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type_config.h \
+	$(WIND_BASE)/host/diab/include/cpp/utility \
+	$(WIND_BASE)/host/diab/include/cpp/iosfwd \
+	$(WIND_BASE)/host/diab/include/cpp/cstdio \
+	$(WIND_BASE)/host/diab/include/cpp/yvals.h \
+	$(WIND_BASE)/host/diab/include/diab/stdarg.h \
+	$(WIND_BASE)/host/diab/include/diab/va_list.h \
+	$(WIND_BASE)/host/diab/include/diab/stddef.h \
+	$(WIND_BASE)/host/diab/include/diab/xmacros.h \
+	$(WIND_BASE)/host/diab/include/cpp/cstring \
+	$(WIND_BASE)/host/diab/include/cpp/cwchar \
+	$(WIND_BASE)/host/diab/include/diab/wchar.h \
+	$(WIND_BASE)/host/diab/include/cpp/xstddef \
+	$(WIND_BASE)/host/diab/include/cpp/cstddef \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/type/default_types.h \
+	$(WIND_BASE)/host/diab/include/diab/float.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/_memory_ \
+	$(WIND_BASE)/host/diab/include/cpp/iterator \
+	$(WIND_BASE)/host/diab/include/cpp/xutility \
+	$(WIND_BASE)/host/diab/include/cpp/climits \
+	$(WIND_BASE)/host/diab/include/cpp/xmemory \
+	$(WIND_BASE)/host/diab/include/cpp/cstdlib \
+	$(WIND_BASE)/host/diab/include/cpp/new \
+	$(WIND_BASE)/host/diab/include/cpp/exception \
+	$(WIND_BASE)/host/diab/include/cpp/list \
+	$(WIND_BASE)/host/diab/include/cpp/functional \
+	$(WIND_BASE)/host/diab/include/cpp/memory \
+	$(WIND_BASE)/host/diab/include/cpp/stdexcept \
+	$(WIND_BASE)/host/diab/include/cpp/xstring \
+	$(WIND_BASE)/host/diab/include/cpp/xtree \
+	$(WIND_BASE)/host/diab/include/cpp/deque \
+	$(WIND_BASE)/host/diab/include/cpp/strstream \
+	$(WIND_BASE)/host/diab/include/cpp/istream \
+	$(WIND_BASE)/host/diab/include/cpp/ostream \
+	$(WIND_BASE)/host/diab/include/cpp/ios \
+	$(WIND_BASE)/host/diab/include/cpp/xlocnum \
+	$(WIND_BASE)/host/diab/include/cpp/cerrno \
+	$(WIND_BASE)/host/diab/include/cpp/streambuf \
+	$(WIND_BASE)/host/diab/include/cpp/xiosbase \
+	$(WIND_BASE)/host/diab/include/cpp/xlocale \
+	$(WIND_BASE)/host/diab/include/cpp/typeinfo \
+	$(WIND_BASE)/host/diab/include/cpp/xlocinfo \
+	$(WIND_BASE)/host/diab/include/cpp/cctype \
+	$(WIND_BASE)/host/diab/include/cpp/clocale \
+	$(WIND_BASE)/host/diab/include/cpp/ctime \
+	$(WIND_BASE)/host/diab/include/cpp/xtinfo.h \
+	$(WIND_BASE)/host/diab/include/cpp/vector \
+	$(WIND_BASE)/host/diab/include/cpp/string \
+	$(WIND_BASE)/host/diab/include/cpp/map \
+	$(WIND_BASE)/host/diab/include/cpp/set \
+	$(WIND_BASE)/host/diab/include/cpp/queue \
+	$(WIND_BASE)/host/diab/include/cpp/algorithm \
+	$(WIND_BASE)/host/diab/include/cpp/numeric \
+	$(WIND_BASE)/host/diab/include/cpp/limits \
+	$(WIND_BASE)/host/diab/include/cpp/cfloat \
+	$(WIND_BASE)/host/diab/include/cpp/cmath \
+	$(WIND_BASE)/host/diab/include/cpp/cassert \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/dinkum/diab/allocator.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/stl/../../mempool/user_mempool.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform_config.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/config/platform/vxworks.h \
+	C:/Projects/fridmon/quark_1_0_1/quark/common_templates.h
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.cpp_objects
+SnmpUserTypes.o
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.h_dependDone
+TRUE
+<END>
+
+<BEGIN> PROJECT_FILES
+C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.cpp \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.cpp \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.cpp \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.cpp \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.cpp \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.cpp \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.cpp \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpUserTypes.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpAny.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpInterfaces.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpLeaf.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpMultiRoot.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpNode.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpSender.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTable.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTextCon.h \
+	C:/Projects/fridmon/snmpfwk_1_0_0/snmpfwk/SnmpTypes.h
+<END>
+
+<BEGIN> userComments
+<Enter description here>
+<END>
+

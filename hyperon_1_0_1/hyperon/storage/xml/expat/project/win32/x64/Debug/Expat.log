@@ -1,0 +1,42 @@
+﻿Build started 24.10.2017 19:44:55.
+     1>Project "C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\Expat.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include\Expat /Zi /nologo /W3 /WX- /Od /D _DEBUG /D WIN32 /D _LIB /D COMPILED_FROM_DSP /D XML_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\compile\Win32\Debug\Expat/" /Fd".\..\..\compile\Win32\Debug\Expat/vc120.pdb" /Gd /TC /errorReport:prompt ..\..\expat\xmlparse.c ..\..\expat\xmlrole.c ..\..\expat\xmltok.c
+         xmlparse.c
+     1>..\..\expat\xmlparse.c(1506): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(1508): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(1517): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(1530): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(1544): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(1580): warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+     1>..\..\expat\xmlparse.c(1588): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(1597): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(1598): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2129): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2134): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2320): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2325): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2346): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2355): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2855): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(2864): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(3677): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(4761): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(4766): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(5652): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\expat\xmlparse.c(5666): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+         xmlrole.c
+         xmltok.c
+     1>c:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\expat\xmltok_impl.c(1717): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\projects\private\_onair@\tsis\src\x64\Debug\Expat.lib) does not match the Library's OutputFile property value (C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\lib\Win32\Debug\Expat.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:".\..\..\lib\Win32\Debug\Expat.lib" /NOLOGO /MACHINE:X64 .\..\..\compile\Win32\Debug\Expat/xmlparse.obj
+         .\..\..\compile\Win32\Debug\Expat/xmlrole.obj
+         .\..\..\compile\Win32\Debug\Expat/xmltok.obj
+         Expat.vcxproj -> C:\projects\private\_onair@\tsis\src\x64\Debug\Expat.lib
+     1>Done Building Project "C:\projects\private\_fwk\fridmon[18-01-2017]\hyperon_1_0_1\hyperon\storage\xml\expat\project\win32\Expat.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25

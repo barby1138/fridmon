@@ -1,0 +1,7 @@
+1. Mandatory, optional, default
+2. Add, remove elements
+3. Read only key attributes
+4. Xerces storage
+5. Refactor dom model
+6. Memory management (expat)
+7. Separate storage (make it configurable)

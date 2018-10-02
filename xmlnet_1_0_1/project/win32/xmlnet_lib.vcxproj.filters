@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="generated">
+      <UniqueIdentifier>{94d2effa-7b74-4151-85fb-10b5f2464707}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\xmlnet\xmlnet_lib\generated\g_client.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\xmlnet\xmlnet_lib\generated\g_server.cpp">
+      <Filter>generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\messages.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\socket.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\stdafx.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_agent.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_schemes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_client.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_interface.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_messages.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_server.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\xmlnet\xmlnet_lib\generated\g_xml_schemes.h">
+      <Filter>generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\messages.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\socket.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\stdafx.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_agent.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\_onair%40\tsis\fwk\fridmon[18-01-2017]\xmlnet_1_0_1\XmlNet\XmlNet_Lib\xml_schemes.h" />
+  </ItemGroup>
+</Project>

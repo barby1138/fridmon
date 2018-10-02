@@ -1,0 +1,408 @@
+Document file - DO NOT EDIT
+
+<BEGIN> BUILD_PPC604diab_BUILDRULE
+test.out
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_AR
+dar
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_ARCHIVE
+$(PRJ_DIR)/PPC604diab/test.a
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_AS
+dcc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CC
+dcc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CC_ARCH_SPEC
+-tPPC604FH:vxworks55
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CFLAGS
+-XO \
+	-tPPC604FH:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-Xcode-absolute-far \
+	-Xdata-absolute-far \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=PPC604 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab \
+	-I$(PRJ_DIR)/../../../quark_1_0_1 \
+	-D__VX_WORKS__ \
+	-D__DCC__ \
+	-I$(PRJ_DIR)/../../../meson_1_0_1 \
+	-I$(PRJ_DIR)/../../../nucleon_1_0_1
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CFLAGS_AS
+-g \
+	-tPPC604FH:vxworks55 \
+	-W:c:,-Xmismatch-warning=2 \
+	-ew1554,1551,1552,1086,1047,1547 \
+	-Xclib-optim-off \
+	-Xansi \
+	-Xstrings-in-text=0 \
+	-Wa,-Xsemi-is-newline \
+	-ei1516,1643,1604 \
+	-Xlocal-data-area-static-only \
+	-Xsize-opt \
+	-Xpreprocess-assembly \
+	-c \
+	-I. \
+	-I$(WIND_BASE)/target/h/ \
+	-DCPU=PPC604 \
+	-DTOOL_FAMILY=diab \
+	-DTOOL=diab
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_CPP
+dcc -E -Xpreprocessor-lineno-off
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_HEX_FLAGS
+
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LD
+dld
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LDFLAGS
+-tPPC604FH:vxworks55 -X -N -Xgenerate-paddr
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LD_PARTIAL
+dld -tPPC604FH:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_LD_PARTIAL_FLAGS
+-tPPC604FH:vxworks55 -X -r
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_NM
+nmppc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_DEFINE_MACRO
+-D
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_DEPEND
+-Xmake-dependency -w
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_GENERATE_DEPENDENCY_FILE
+-MD
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_INCLUDE_DIR
+-I
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_LANG_C
+-xc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_OPTION_UNDEFINE_MACRO
+-U
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_POST_BUILD_RULE
+
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_PRJ_LIBS
+$(PRJ_DIR)/../../../quark_1_0_1/lib/vxworks/diab/release/quark.a \
+	$(PRJ_DIR)/../../../meson_1_0_1/lib/vxworks/diab/release/meson.a
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_SIZE
+sizeppc
+<END>
+
+<BEGIN> BUILD_PPC604diab_MACRO_TOOL_FAMILY
+diab
+<END>
+
+<BEGIN> BUILD_PPC604diab_RO_DEPEND_PATH
+{$(WIND_BASE)/target/h/} \
+	{$(WIND_BASE)/target/src/} \
+	{$(WIND_BASE)/target/config/}
+<END>
+
+<BEGIN> BUILD_PPC604diab_TC
+::tc_PPC604diab
+<END>
+
+<BEGIN> BUILD_RULE_archive
+
+<END>
+
+<BEGIN> BUILD_RULE_objects
+
+<END>
+
+<BEGIN> BUILD_RULE_test.out
+
+<END>
+
+<BEGIN> BUILD_RULE_test.pl
+
+<END>
+
+<BEGIN> BUILD__CURRENT
+PPC604diab
+<END>
+
+<BEGIN> BUILD__LIST
+PPC604diab
+<END>
+
+<BEGIN> CORE_INFO_TYPE
+::prj_vxApp
+<END>
+
+<BEGIN> CORE_INFO_VERSION
+2.2
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bimap_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bimap_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/bimap_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bimap_test.cpp_objects
+bimap_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bimap_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bstream_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bstream_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/bstream_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bstream_test.cpp_objects
+bstream_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/bstream_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dispatcher_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dispatcher_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/dispatcher_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dispatcher_test.cpp_objects
+dispatcher_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dispatcher_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dynamic_fsm_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dynamic_fsm_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/dynamic_fsm_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_states.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dynamic_fsm_test.cpp_objects
+dynamic_fsm_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/dynamic_fsm_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/event_dispatcher_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/event_dispatcher_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/event_dispatcher_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/event_dispatcher_test.cpp_objects
+event_dispatcher_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/event_dispatcher_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/factory_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/factory_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/factory_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/factory_test.cpp_objects
+factory_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/factory_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.cpp_objects
+fsm_commands.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.cpp_objects
+fsm_messages.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_states.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_states.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_states.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_states.cpp_objects
+fsm_states.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_states.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm_test.cpp_objects
+fsm_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/main.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/main.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/bimap_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/dynamic_fsm_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/bstream_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/dispatcher_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/event_dispatcher_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/smart_ptr_test.h \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/factory_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/main.cpp_objects
+main.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/main.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/smart_ptr_test.cpp_dependDone
+TRUE
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/smart_ptr_test.cpp_dependencies
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/smart_ptr_test.h
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/smart_ptr_test.cpp_objects
+smart_ptr_test.o
+<END>
+
+<BEGIN> FILE_$(PRJ_DIR)/../../../nucleon_1_0_1/test/smart_ptr_test.cpp_tool
+C/C++ compiler
+<END>
+
+<BEGIN> PROJECT_FILES
+$(PRJ_DIR)/../../../nucleon_1_0_1/test/dynamic_fsm_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/event_dispatcher_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/factory_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/main.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/smart_ptr_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/bimap_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/bstream_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/dispatcher_test.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_commands.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_messages.cpp \
+	$(PRJ_DIR)/../../../nucleon_1_0_1/test/fsm/fsm_states.cpp
+<END>
+
+<BEGIN> userComments
+<Enter description here>
+<END>
+

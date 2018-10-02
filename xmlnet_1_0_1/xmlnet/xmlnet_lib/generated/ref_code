@@ -1,0 +1,22 @@
+//////////////////////////////////////////////////////////////////
+/*
+	xml_message* pMsg;
+	pstring str;
+	if (_server.getModuleVersion(str))
+	{
+		pMsg = new xml_getModuleVersionResponse_message();
+	}
+	else
+	{
+		pMsg = new xml_getModuleVersionFailure_message();
+	}
+
+//	xml_agent.send(pMsg);
+
+// like client
+//		xml_onModuleEventNotification_message* pMsg = new xml_onModuleEventNotification_message();
+//	c = xml_agent.connect();
+//	xml_agent.send(c, pMsg);
+//	xml_agent.recieve(c);
+
+*/
